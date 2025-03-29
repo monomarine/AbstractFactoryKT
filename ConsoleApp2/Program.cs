@@ -12,6 +12,9 @@
 
             MobSpawner highSpawner = new MobSpawner(new HighLevelMobFactory());
             highSpawner.SpawnMob();  // Dragon breathes fire!
+
+            MobSpawner ultraSpawner = new MobSpawner(new UltraHighLevelMob());
+            ultraSpawner.SpawnMob(); // Мегаладон атакует мощным потоком воды!
         }
     }
 }
