@@ -12,6 +12,10 @@
 
             MobSpawner highSpawner = new MobSpawner(new HighLevelMobFactory());
             highSpawner.SpawnMob();  // Dragon breathes fire!
+
+            //добавленный моб
+            MobSpawner beeSpawner = new MobSpawner(new BeeFactory());
+            beeSpawner.SpawnMob(); //пчёлка жалит!
         }
     }
 }
