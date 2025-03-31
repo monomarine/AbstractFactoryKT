@@ -12,6 +12,9 @@
 
             MobSpawner highSpawner = new MobSpawner(new HighLevelMobFactory());
             highSpawner.SpawnMob();  // Dragon breathes fire!
+
+            MobSpawner veryHighSpawner = new MobSpawner(new VeryHighLevelMobFactory());
+            veryHighSpawner.SpawnMob();  // Грифон атакует выпустив когти!
         }
     }
 }
