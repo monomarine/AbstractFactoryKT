@@ -5,13 +5,13 @@
         static void Main(string[] args)
         {
             MobSpawner lowSpawner = new MobSpawner(new LowLevelMobFactory());
-            lowSpawner.SpawnMob();  // Goblin attacks!
+            lowSpawner.SpawnMob();
 
             MobSpawner midSpawner = new MobSpawner(new MidLevelMobFactory());
-            midSpawner.SpawnMob();  // Orc attacks!
+            midSpawner.SpawnMob();
 
-            MobSpawner highSpawner = new MobSpawner(new HighLevelMobFactory());
-            highSpawner.SpawnMob();  // Dragon breathes fire!
+            MobSpawner highSpawner = new MobSpawner(new NewHighLevelMobFactory());
+            highSpawner.SpawnMob();
         }
     }
 }
