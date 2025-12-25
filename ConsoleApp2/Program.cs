@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp2
+﻿using System;
+
+namespace ConsoleApp2
 {
     class Program
     {
@@ -11,7 +13,7 @@
             midSpawner.SpawnMob();  // Orc attacks!
 
             MobSpawner highSpawner = new MobSpawner(new HighLevelMobFactory());
-            highSpawner.SpawnMob();  // Dragon breathes fire!
+            highSpawner.SpawnMob();  // Dragon breathes fire! или Flying Demon!
         }
     }
 }
