@@ -12,6 +12,9 @@
 
             MobSpawner highSpawner = new MobSpawner(new HighLevelMobFactory());
             highSpawner.SpawnMob();  // Dragon breathes fire!
+
+            MobSpawner highwyvernSpawner = new MobSpawner(new HighLevelWyvernFactory());
+            highwyvernSpawner.SpawnMob();  // Wyvern летает и атакует гоблинов
         }
     }
 }
